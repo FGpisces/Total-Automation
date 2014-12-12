@@ -1,21 +1,49 @@
-List of stuff to do until 0.1a Total Automation release (mid-late December):
+List of stuff to do until 0.1a Total Automation release (late December):
 1. Implement RF power system
 2. Add baterries in 3 tiers
 3. Add sifters in 3 tiers
 - sand -> pure sand
-4. Add Pure sand and Pure glass (similar to TCon Clear glass)
+4. Add Pure sand and Pure glass (similar to TCon Clear glass, conected textures hopefully)
 5. Add Ore Melters in 3 tiers 
 - I.  tier - 12 nuggets per ore
 - II. tier - 16 nuggets per ore 
 - III. tier - 20 nuggets per ore
 6. Disable golden nuggets (or nuggets added by mods #OreDict) to ingots and vice versa recipes
 7. Add nuggets for vanilla and most common #OreDict ores (copper, tin) + glass nuggets
-8. Add ingot former to turn nuggets from Ore Melter into ingots
+8. Add Ingot Former to turn nuggets from Ore Melter into ingots
 9. Lang system
 - en_US.lang (leSamo)
 - de_DE.lang (FGpisces)
 - sk_SK.lang (leSamo)
+10. Add Machine Assembler
+- allows to create custom machines
+- PARTS:
+	- Content
+		- Ore Melter
+		- Ingot Former
+		- Sifter
+		- Machine Assembler (Yo Dawg I heard you like Machine Assemblers...)
+		- TBA
+	- Casing (Speed)
+		- Tier I.
+		- Tier II.
+		- Tier III.
+	- Battery (Energy buffer)
+		- Tier I.
+		- Tier II.
+		- Tier III.
+	- Inventory (Capacity)
+		- Tier I.
+		- Tier II.
+		- Tier III.
+	- Upgrades
+		- Ender module (will be probably renamed)
+			- allows to wireless transmit energy/items/liquids
+		- TBA
+
 
 0.2a (sometime in December/January)
-1. New textures (32px)
+1. New textures (32px or 64x)
 2. cs_CZ.lang (prebably)
+3. add Wrench
+4. add Cerium ore and Cerium item
