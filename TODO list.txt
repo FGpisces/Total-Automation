@@ -44,6 +44,6 @@ List of stuff to do until 0.1a Total Automation release (late December):
 
 0.2a (sometime in December/January)
 1. New textures (32px or 64x)
-2. cs_CZ.lang (prebably)
+2. cs_CZ.lang (probably)
 3. add Wrench
 4. add Cerium ore and Cerium item
