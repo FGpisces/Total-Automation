@@ -46,8 +46,11 @@ List of stuff to do until 0.1a Total Automation release:
 1. New textures (32px or 64x)
 2. Add cs_CZ.lang (probably)
 3. Add Wrench
-4. Add Cerium ore and Cerium item
+4. Add Monazite ore and Cerium item
 5. Add Chunk loader
 6. Add config file
 7. Add crafting recipes
 8. Add chipsets (used to craft machines and upgrade them)
+9. Add lighter:
+	- much more durability than flint and steel
+	- will be crafted from cerium
