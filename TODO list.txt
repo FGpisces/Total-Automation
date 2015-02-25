@@ -1,8 +1,8 @@
-List of stuff to do until 0.1a Total Automation release (late December):
-1. Implement RF power system
+List of stuff to do until 0.1a Total Automation release:
+1. Create energy power system
 2. Add baterries in 3 tiers
 3. Add sifters in 3 tiers
-- sand -> pure sand
+- sand -> pure sand + silicon
 4. Add Pure sand and Pure glass (similar to TCon Clear glass, conected textures hopefully)
 5. Add Ore Melters in 3 tiers 
 - I.  tier - 12 nuggets per ore
@@ -16,9 +16,9 @@ List of stuff to do until 0.1a Total Automation release (late December):
 - de_DE.lang (FGpisces)
 - sk_SK.lang (leSamo)
 10. Add Machine Assembler
-- allows to create custom machines
+- Allows to create custom machines
 - PARTS:
-	- Content
+	- Content (Function)
 		- Ore Melter
 		- Ingot Former
 		- Sifter
@@ -38,12 +38,16 @@ List of stuff to do until 0.1a Total Automation release (late December):
 		- Tier III.
 	- Upgrades
 		- Ender module (will be probably renamed)
-			- allows to wireless transmit energy/items/liquids
+			- allows to wirelessly transmit energy/items/liquids
 		- TBA
 
 
-0.2a (sometime in December/January)
+0.2a
 1. New textures (32px or 64x)
-2. cs_CZ.lang (probably)
-3. add Wrench
-4. add Cerium ore and Cerium item
+2. Add cs_CZ.lang (probably)
+3. Add Wrench
+4. Add Cerium ore and Cerium item
+5. Add Chunk loader
+6. Add config file
+7. Add crafting recipes
+8. Add chipsets (used to craft machines and upgrade them)
