@@ -1,10 +1,4 @@
-#eclipse
-.project
 .classpath
 .metadata
-org.*
-bin
-
-#gradle
-build
-.gradle
+rem*
+eclipse
