@@ -1,0 +1,9 @@
+package com.leSamo.TotalAutomation;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid="TotalAutomation", name="Total Automation", version="pre0.1a")
+
+public class TotalAutomation {
+
+}
