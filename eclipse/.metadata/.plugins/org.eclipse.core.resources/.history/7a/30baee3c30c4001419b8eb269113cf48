@@ -1,8 +1,6 @@
 package com.leSamo.TotalAutomation;
 
-import com.leSamo.TotalAutomation.config.ConfigurationHandler;
 import com.leSamo.TotalAutomation.proxy.IProxy;
-
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -21,7 +19,7 @@ public class TotalAutomation {
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event){
-		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+		
 	}
 	
 	@Mod.EventHandler
