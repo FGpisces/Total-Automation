@@ -67,8 +67,8 @@
  1. Chipsets textures (32px)
  - Iron
  - Golden
- - Emerald DONE
- - Diamond DONE
+ - Emerald
+ - Diamond
  2. Machine textures (64px)
  - Sifter
  - Ore Melter
