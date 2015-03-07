@@ -1,5 +1,0 @@
-package com.leSamo.TotalAutomation.proxy;
-
-public class CommonProxy implements IProxy {
-
-}
