@@ -1,40 +1,40 @@
 'Total Automation' TODOlist
 0.1a
-1. Add Machines
-- Sifter
+ 1. Add Machines
+ - Sifter
 	- sand -> pure sand + silicon
-- Ore Melter
+ - Ore Melter
 	- ore -> 12 nuggets
-- Ingot Former
+ - Ingot Former
 	- 9 nuggets -> ingot
-- They will not require power right now.
-2. Add Chipsets
-- Will come in multiple tiers.
-- No usage right now.
-3. Add nuggets for vanilla and most common OreDict ores and glass
-4. Disable nugget crafting for all metals.
-5. Add pure sand and pure glass
-- Pure sand will be able to smelt into pure glass (similar to TCon clear glass).
-6. Add silicon
-- Will be OreDicted.
-- Will be in chipsets' crafting recipes.
+ - They will not require power right now.
+ 2. Add Chipsets
+ - Will come in multiple tiers.
+ - No usage right now.
+ 3. Add nuggets for vanilla and most common OreDict ores and glass
+ 4. Disable nugget crafting for all metals.
+ 5. Add pure sand and pure glass
+ - Pure sand will be able to smelt into pure glass (similar to TCon clear glass).
+ 6. Add silicon
+ - Will be OreDicted.
+ - Will be in chipsets' crafting recipes.
 
 0.2a
-1. Add Monazite ore and Cerium
-- You can smelt Monazite into Cerium.
-2. Add wrench
-3. Add lighter
-- Similar to Flint and steel, but with higher durability.
-- Recipe will require cerium.
-4. New textures (32px or 64px)
-5. Add chunk loader
-
+ 1. Add Monazite ore and Cerium
+ - You can smelt Monazite into Cerium.
+ 2. Add wrench
+ 3. Add lighter
+ - Similar to Flint and steel, but with higher durability.
+ - Recipe will require cerium.
+ 4. New textures (32px or 64px)
+ 5. Add chunk loader
+ 
 0.3a
-1. Add modules
-- Modules will be microblocks (1/8 of a block).
-- Base will be slab (1/2 block).
-- That means you can add base + 4 modules and than casing to finnish the machine.
-- Modules can be used alone (e.g. as a battery)
+ 1. Add modules
+ - Modules will be microblocks (1/8 of a block).
+ - Base will be slab (1/2 block).
+ - That means you can add base + 4 modules and than casing to finnish the machine.
+ - Modules can be used alone (e.g. as a battery)
 	- Base (Function)
 		- Ore Melter
 		- Ingot Former
@@ -60,5 +60,5 @@
 		- Ender module (will be probably renamed)
 			- allows to wirelessly transmit energy/items/liquids
 		- TBA
-2. Add power system
-- Maybe RF IDK.
+ 2. Add power system
+ - Maybe RF IDK.
