@@ -1,7 +1,6 @@
 package com.leSamo.TotalAutomation.config;
 
 import java.io.File;
-
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.common.config.Configuration;
 
