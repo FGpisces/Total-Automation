@@ -64,12 +64,12 @@
  - Maybe RF IDK.
 
 						'Total Automation' TODOlist (FGpisces)
- 1. Chipsets textures (64px)
+ 1. Chipsets textures (32px)
  - Iron
  - Golden
- - Emerald
- - Diamond
- 2. Machines textures (64px)
+ - Emerald DONE
+ - Diamond DONE
+ 2. Machine textures (64px)
  - Sifter
  - Ore Melter
  - Ingot Former
