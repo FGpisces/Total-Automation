@@ -1,4 +1,4 @@
-'Total Automation' TODOlist
+						'Total Automation' TODOlist (leSamo)
 0.1a
  1. Add Machines
  - Sifter
@@ -62,3 +62,33 @@
 		- TBA
  2. Add power system
  - Maybe RF IDK.
+
+						'Total Automation' TODOlist (FGpisces)
+ 1. Chipsets textures (64px)
+ - Iron
+ - Golden
+ - Emerald
+ - Diamond
+ 2. Machines textures (64px)
+ - Sifter
+ - Ore Melter
+ - Ingot Former
+ - Chunk Loader
+ 3. Modules textures 
+ - 8px
+ 	- Batteries
+ 	- Containers
+	- Tanks
+ - 64px
+ 	- Casings
+ 4. Block texture (64px)
+ - Monazite Ore
+ - Pure Sand
+ - Pure Glass
+ 5. Item textures (64px)
+ - Wrench
+ - Silicon
+ - Cerium
+ - Glass nugget
+ - Lighter
+ 
