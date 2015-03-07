@@ -25,10 +25,6 @@ public class ConfigurationHandler {
 				configuration.save();
 			}
 		}
-	}
-	
-	@SubscribeEvent
-	public void onConfiguratoinChangedEvent (ConfigChangedEvent.OnConfigChangedEvent event) {
-		if (event.modID.equalsIgnoreCase(TotalAutomation))
-	}
+	}	
 }
+
