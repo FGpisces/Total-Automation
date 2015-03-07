@@ -2,6 +2,7 @@ package com.leSamo.TotalAutomation.config;
 
 import java.io.File;
 
+import cpw.mods.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.common.config.Configuration;
 
 public class ConfigurationHandler {
@@ -10,21 +11,24 @@ public class ConfigurationHandler {
 	{
 		Configuration configuration = new Configuration(configFile);
 		
-		boolean configValue = false;
+		double oreDensity = 1;
 		
 		try {
 			configuration.load();
-			
-			configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "Example value").getBoolean(true);
+			oreDensity = configuration.get(Configuration.CATEGORY_GENERAL, "oreDensity", 1, "Density of all ores in mod").getDouble();
 		}
 		catch (Exception e) {
 			
 		}
 		finally {
-			configuration.save();
+			if (configuration.hasChanged()) {
+				configuration.save();
+			}
 		}
-		
-		System.out.println(configValue);
-		
+	}
+	
+	@SubscribeEvent
+	public void onConfiguratoinChangedEvent (ConfigChangedEvent.OnConfigChangedEvent event) {
+		if (event.modID.equalsIgnoreCase(TotalAutomation))
 	}
 }
