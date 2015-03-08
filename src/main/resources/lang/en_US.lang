@@ -1,39 +1,7 @@
 # Master language file for mod 'Total Automation' (0.1a) by leSamo and FGpisces
 
 item.totalautomation:cerium.name=Cerium
-
-# Additional names
-
-machine.melter.name=Ore Melter
-machine.sifter.name=Sifter
-machine.former.name=Ingot Former
-
-tools.chunkLoader.name=Chunk Loader
-tools.wrench.name=Wrench
-tools.lighter.name=Lighter
-
-part.battery.name=Battery
-part.casing.name=Casing
-part.container.name=Container
-part.core.name=Core
-part.chip.name=Chipset
-
-tier.tier1.name=Tier I.
-tier.tier2.name=Tier II.
-tier.tier3.name=Tier III.
-
-material.silicon.name=Silicon
-material.pureSand.name=Pure sand
-material.pureGlass.name=Pure Glass
-material.cerium.name=Cerium
-
-ore.monazite.name=Monazite Ore
-
-prefix.module.name=Module
-prefix.machine.name=Machine
-prefix.tool.name=Tool
-
-chip.iron.name=Iron Chipset
-chip.gold.name=Golden Chipset
-chip.diamond.name=Diamond Chipset
-chip.emerald.name=Emerald Chipset
+item.totalautomation:IronChipset.name=Iron Chipset
+item.totalautomation:GoldChipset.name=Golden Chipset
+item.totalautomation:DiamondChipset.name=Diamond Chipset
+item.totalautomation:EmeraldChipset.name=Emerald Chipset
