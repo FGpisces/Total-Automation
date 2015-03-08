@@ -5,3 +5,6 @@ eclipse
 .gradle
 .settings
 bin
+.project
+gradlew
+gradlew.bat
