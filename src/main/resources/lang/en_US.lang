@@ -1,5 +1,9 @@
 # Master language file for mod 'Total Automation' (0.1a) by leSamo and FGpisces
 
+item.totalautomation:cerium.name=Cerium
+
+# Additional names
+
 machine.melter.name=Ore Melter
 machine.sifter.name=Sifter
 machine.former.name=Ingot Former
