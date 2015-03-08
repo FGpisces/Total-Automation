@@ -5,3 +5,6 @@ item.totalautomation:ironchipset.name=Iron Chipset
 item.totalautomation:goldenchipset.name=Golden Chipset
 item.totalautomation:diamondchipset.name=Diamond Chipset
 item.totalautomation:emeraldchipset.name=Emerald Chipset
+
+tile.totalautomation:puresand.name=Pure Sand
+tile.totalautomation:pureglass.name=Pure Glass

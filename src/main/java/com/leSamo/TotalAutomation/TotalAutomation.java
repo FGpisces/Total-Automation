@@ -1,5 +1,6 @@
 package com.leSamo.TotalAutomation;
 
+import com.leSamo.TotalAutomation.block.BlockReg;
 import com.leSamo.TotalAutomation.config.ConfigurationHandler;
 import com.leSamo.TotalAutomation.item.ItemReg;
 import com.leSamo.TotalAutomation.proxy.IProxy;
@@ -26,6 +27,7 @@ public class TotalAutomation {
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		
 		ItemReg.init();
+		BlockReg.init();
 	}
 	
 	@Mod.EventHandler
