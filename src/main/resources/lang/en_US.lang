@@ -1,7 +1,7 @@
 # Master language file for mod 'Total Automation' (0.1a) by leSamo and FGpisces
 
 item.totalautomation:cerium.name=Cerium
-item.totalautomation:IronChipset.name=Iron Chipset
-item.totalautomation:GoldChipset.name=Golden Chipset
-item.totalautomation:DiamondChipset.name=Diamond Chipset
-item.totalautomation:EmeraldChipset.name=Emerald Chipset
+item.totalautomation:ironchipset.name=Iron Chipset
+item.totalautomation:goldchipset.name=Golden Chipset
+item.totalautomation:diamondchipset.name=Diamond Chipset
+item.totalautomation:emeraldchipset.name=Emerald Chipset
