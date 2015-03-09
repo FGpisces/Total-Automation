@@ -1,13 +1,11 @@
 package com.leSamo.TotalAutomation.block;
 
 import com.leSamo.TotalAutomation.ref.Reference;
-
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.ItemStack;
 
 public class TABlock extends Block {
 
@@ -16,7 +14,7 @@ public class TABlock extends Block {
 	}
 	
 	public TABlock() {
-		this(Material.rock);
+		this(Material.glass);
 	}
 	
 	@Override
@@ -33,5 +31,14 @@ public class TABlock extends Block {
 	protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
 		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
 	}
-	
+	@SideOnly(Side.CLIENT)
+	public int getRenderBlockPass()	{
+	    return 0;
+	}
+
+	public boolean renderAsNormalBlock() {
+	    return false;
+	}
 }
+
+
