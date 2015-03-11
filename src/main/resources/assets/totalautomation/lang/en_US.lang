@@ -8,3 +8,5 @@ item.totalautomation:emeraldchipset.name=Emerald Chipset
 
 tile.totalautomation:puresand.name=Pure Sand
 tile.totalautomation:pureglass.name=Pure Glass
+
+itemGroup.TotalAutomation=Total Automation
