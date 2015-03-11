@@ -6,7 +6,7 @@ public class Silicon extends TAItem {
 	public Silicon() {
 		super();
 		this.setUnlocalizedName("silicon");
-		this.setTextureName("");
+		this.setTextureName("Silicon");
 		this.setCreativeTab(TACreativeTab.TATab);
 	}
 }

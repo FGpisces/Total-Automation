@@ -10,4 +10,7 @@ item.totalautomation:silicon.name=Silicon
 tile.totalautomation:puresand.name=Pure Sand
 tile.totalautomation:pureglass.name=Pure Glass
 
+tile.totalautomation:oremelter.name=Ore Melter
+tile.totalautomation:sifter.name=Sifter
+
 itemGroup.TotalAutomation=Total Automation
