@@ -1,8 +1,9 @@
 package com.leSamo.TotalAutomation;
 
 import com.leSamo.TotalAutomation.block.BlockReg;
-import com.leSamo.TotalAutomation.config.ConfigurationHandler;
 import com.leSamo.TotalAutomation.item.ItemReg;
+import com.leSamo.TotalAutomation.rec.TARecipes;
+import com.leSamo.TotalAutomation.config.ConfigurationHandler;
 import com.leSamo.TotalAutomation.proxy.IProxy;
 import com.leSamo.TotalAutomation.ref.Reference;
 
@@ -32,7 +33,7 @@ public class TotalAutomation {
 	
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event){
-		
+		TARecipes.init();
 	}
 	
 	@Mod.EventHandler

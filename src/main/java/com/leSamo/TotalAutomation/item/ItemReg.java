@@ -9,6 +9,7 @@ public class ItemReg {
 	public static final TAItem GoldenChipset = new GoldenChipset();
 	public static final TAItem DiamondChipset = new DiamondChipset();
 	public static final TAItem EmeraldChipset = new EmeraldChipset();
+	public static final TAItem Silicon = new Silicon();
 	
 	public static void init() {
 		GameRegistry.registerItem(CeriumItem, "CeriumItem");
@@ -16,5 +17,6 @@ public class ItemReg {
 		GameRegistry.registerItem(GoldenChipset, "GoldenChipset");
 		GameRegistry.registerItem(DiamondChipset, "DiamondChipset");
 		GameRegistry.registerItem(EmeraldChipset, "EmeraldChipset");
+		GameRegistry.registerItem(Silicon, "Silicon");
 	}
 }

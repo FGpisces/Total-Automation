@@ -11,8 +11,5 @@ public class TACreativeTab {
 		public Item getTabIconItem() {
 			return ItemReg.CeriumItem;
 		}
-		public String getTranslatedLabel() {
-			return "Total Automation";
-		}
 	};
 }
