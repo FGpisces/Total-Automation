@@ -1,0 +1,24 @@
+Code in this directory is licensed under 'leSamo public licence 0.1'	©2015 by leSamo
+
+You can do with my code do whatever you want.
+Including:
+	Download code or compiled binaries for personal use
+	Put the code or compiled binaries into your modpack
+	Fork the repository on github
+	Compile the code
+	Use portions of the code as examples in a presentation (Why would you do that? My code's terrible...)
+	Record portions of gameplay for display on YouTube or other video/media sites
+	Modify the code to:
+		Fix bugs
+		Add or remove content
+Excluding:
+	Making or trying to make money from the code, derivatives of the code, compiled portions of the code, etc etc.
+	Claiming the the code or compiled binaries are yours without permission from the previous author(s).
+
+The above usage is granted to you as long as this license remains intact for all original or derived code.
+Please include a copy of this license with the code, or provide a link to this document.
+If you include my mod or part of my code in a modpack, please give me credits on visible place and notify me about it. 
+
+This license prohibits any attempt to hold the author liable for damages caused by usage of the the code or compiled binaries.
+
+I (leSamo) reserve the right to change this license at any time.
