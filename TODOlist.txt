@@ -1,4 +1,9 @@
 						'Total Automation' TODOlist (leSamo)
+pre0.1a
+ 1. Add multitexure and player facing on placement for Machines
+ 2. Add GUIs for Machines
+ 3. Add MonaziteOre to WorldGen
+
 0.1a
  1. Add Machines
  - Sifter
