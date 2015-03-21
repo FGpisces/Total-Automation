@@ -1,7 +1,9 @@
 package com.leSamo.TotalAutomation;
 
+import net.minecraft.world.WorldType;
+
 import com.leSamo.TotalAutomation.block.BlockReg;
-import com.leSamo.TotalAutomation.han.TAGui;
+import com.leSamo.TotalAutomation.han.GuiHandler;
 import com.leSamo.TotalAutomation.item.ItemReg;
 import com.leSamo.TotalAutomation.rec.TARecipes;
 import com.leSamo.TotalAutomation.config.ConfigurationHandler;
@@ -14,6 +16,8 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.network.IGuiHandler;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid=Reference.MID, name=Reference.MNAME, version=Reference.MVERSION)
@@ -32,16 +36,17 @@ public class TotalAutomation {
 		
 		ItemReg.init();
 		BlockReg.init();
-		// gui init
+		WorldGenerator.initWorldGen();
 	}
 	
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event){
 		TARecipes.init();
+		NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
 	}
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event){
-		
+
 	}
 }

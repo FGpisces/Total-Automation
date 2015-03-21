@@ -1,11 +1,17 @@
 package com.leSamo.TotalAutomation.block;
 
+import com.leSamo.TotalAutomation.TotalAutomation;
+import com.leSamo.TotalAutomation.han.GUIs;
+import com.leSamo.TotalAutomation.han.OreMelterGui;
 import com.leSamo.TotalAutomation.ref.Reference;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.world.World;
 
 public class TABlock extends Block {
 
@@ -39,6 +45,16 @@ public class TABlock extends Block {
 	public boolean renderAsNormalBlock() {
 	    return false;
 	}
+
+	@Override
+		public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int meta, float hitX, float hitY, float hitZ) {
+			if(world.isRemote) {
+				if (world.getTileEntity(x, y, z) != null)
+					player.openGui(TotalAutomation.instance, GUIs.OREMELTER.ordinal(), world, x, y, z);
+				return true;
+			}
+		return true;
+    }
 }
 
 
