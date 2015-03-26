@@ -80,7 +80,7 @@ pre0.1a
  - Ingot Former
  - Chunk Loader
  3. Modules textures 
- - 8px
+ - 16px
  	- Batteries
  	- Containers
 	- Tanks
@@ -90,7 +90,7 @@ pre0.1a
  - Monazite Ore
  - Pure Sand
  - Pure Glass
- 5. Item textures (64px)
+ 5. Item textures (32px)
  - Wrench
  - Silicon
  - Cerium
