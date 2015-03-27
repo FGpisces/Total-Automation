@@ -10,3 +10,5 @@ gradlew
 gradlew.bat
 TODO*
 grad*
+.proj*
+.gitingore
