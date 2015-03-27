@@ -1,7 +1,7 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.ctab.TACreativeTab;
-import net.minecraft.block.material.Material;
+import com.leSamo.TotalAutomation.util.TABlock;
+import com.leSamo.TotalAutomation.util.TACreativeTab;
 
 public class OreMelter extends TABlock {
 	public OreMelter() {

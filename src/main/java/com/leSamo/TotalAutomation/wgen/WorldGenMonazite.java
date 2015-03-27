@@ -2,8 +2,7 @@ package com.leSamo.TotalAutomation.wgen;
 
 import java.util.Random;
 
-import com.leSamo.TotalAutomation.block.BlockReg;
-
+import com.leSamo.TotalAutomation.util.BlockReg;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
@@ -23,18 +22,17 @@ public class WorldGenMonazite implements IWorldGenerator {
 	}
 	
 	private void generateSurface(World world, Random rand, int chunkX, int chunkZ){
-		for (int i = 0; i < 100; i++){
+		for (int i = 0; i < 5; i++){
 			int randPosX = chunkX + rand.nextInt(16);
 			int randPosY = rand.nextInt(64);
 			int randPosZ = chunkZ + rand.nextInt(16);
 			
-			(new WorldGenMinable(BlockReg.MonaziteOre, 10)).generate(world, rand, randPosX, randPosY, randPosZ);
+			(new WorldGenMinable(BlockReg.MonaziteOre, 3)).generate(world, rand, randPosX, randPosY, randPosZ);
 			
 		}
 	}
 
 	private void generateNether(World world, Random rand, int i, int j) {
-		
 		
 	}
 }

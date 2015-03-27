@@ -1,6 +1,6 @@
-package com.leSamo.TotalAutomation.rec;
+package com.leSamo.TotalAutomation.util;
 
-import com.leSamo.TotalAutomation.item.ItemReg;
+import com.leSamo.TotalAutomation.util.ItemReg;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;

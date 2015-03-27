@@ -1,9 +1,9 @@
-package com.leSamo.TotalAutomation.block;
+package com.leSamo.TotalAutomation.util;
 
 import com.leSamo.TotalAutomation.TotalAutomation;
 import com.leSamo.TotalAutomation.han.GUIs;
 import com.leSamo.TotalAutomation.han.OreMelterGui;
-import com.leSamo.TotalAutomation.ref.Reference;
+import com.leSamo.TotalAutomation.util.Ref;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -25,7 +25,7 @@ public class TABlock extends Block {
 	
 	@Override
 	public String getUnlocalizedName () {
-		return String.format("tile.%s%s", Reference.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("tile.%s%s", Ref.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override

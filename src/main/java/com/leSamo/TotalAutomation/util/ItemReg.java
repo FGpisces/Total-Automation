@@ -1,5 +1,6 @@
-package com.leSamo.TotalAutomation.item;
+package com.leSamo.TotalAutomation.util;
 
+import com.leSamo.TotalAutomation.util.TAItem;
 import com.leSamo.TotalAutomation.item.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 

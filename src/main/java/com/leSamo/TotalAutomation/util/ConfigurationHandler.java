@@ -1,4 +1,4 @@
-package com.leSamo.TotalAutomation.config;
+package com.leSamo.TotalAutomation.util;
 
 import java.io.File;
 import cpw.mods.fml.client.event.ConfigChangedEvent;

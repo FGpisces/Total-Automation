@@ -1,6 +1,6 @@
-package com.leSamo.TotalAutomation.ref;
+package com.leSamo.TotalAutomation.util;
 
-public class Reference {
+public class Ref {
 	public static final String MID = "TotalAutomation";
 	public static final String MNAME = "Total Automation";
 	public static final String MVERSION = "@VERSION@";

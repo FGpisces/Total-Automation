@@ -1,6 +1,5 @@
 package com.leSamo.TotalAutomation.wgen;
 
-import com.leSamo.TotalAutomation.TotalAutomation;
 import com.leSamo.TotalAutomation.block.*;
 import com.leSamo.TotalAutomation.wgen.*;
 

@@ -1,9 +1,9 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.ctab.TACreativeTab;
-import net.minecraft.block.material.Material;
+import com.leSamo.TotalAutomation.util.TACreativeTab;
+import com.leSamo.TotalAutomation.util.TAFallingBlock;
 
-public class PureSand extends TABlock {
+public class PureSand extends TAFallingBlock {
 	public PureSand() {
 		super();
 		this.setBlockName("puresand");

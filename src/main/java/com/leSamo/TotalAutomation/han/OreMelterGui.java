@@ -1,7 +1,6 @@
 package com.leSamo.TotalAutomation.han;
 
-import com.leSamo.TotalAutomation.ref.Reference;
-
+import com.leSamo.TotalAutomation.util.Ref;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
@@ -23,5 +22,5 @@ public class OreMelterGui {
 	          xSize = 176;
 	          ySize = 214;
 	      }
-	      private ResourceLocation backgroundimage = new ResourceLocation(Reference.MID.toLowerCase() + ":" + "textures/client/gui/GuiSmasher.png");    
+	      private ResourceLocation backgroundimage = new ResourceLocation(Ref.MID.toLowerCase() + ":" + "textures/client/gui/GuiSmasher.png");    
 }

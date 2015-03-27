@@ -1,6 +1,7 @@
-package com.leSamo.TotalAutomation.item;
+package com.leSamo.TotalAutomation.util;
 
-import com.leSamo.TotalAutomation.ref.Reference;
+import com.leSamo.TotalAutomation.util.Ref;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -15,12 +16,12 @@ public class TAItem extends Item {
 	
 	@Override
 	public String getUnlocalizedName () {
-		return String.format("item.%s%s", Reference.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", Ref.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override
 	public String getUnlocalizedName(ItemStack itemstack) {
-		return String.format("item.%s%s", Reference.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", Ref.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override

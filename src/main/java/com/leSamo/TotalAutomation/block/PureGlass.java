@@ -1,9 +1,11 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.ctab.TACreativeTab;
-import net.minecraft.block.material.Material;
+import com.leSamo.TotalAutomation.util.TACreativeTab;
+import com.leSamo.TotalAutomation.util.TATransparentBlock;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
-public class PureGlass extends TABlock{
+public class PureGlass extends TATransparentBlock{
 	public PureGlass() {
 		super();
 		this.setBlockName("pureglass");
@@ -12,4 +14,13 @@ public class PureGlass extends TABlock{
 		this.setHardness(0.3F);
 		this.setCreativeTab(TACreativeTab.TATab);
 	}
+    @SideOnly(Side.CLIENT)
+    public int getRenderBlockPass()
+    {
+    	return 0;
+    }
+    public boolean renderAsNormalBlock()
+    {
+        return false;
+    }
 }

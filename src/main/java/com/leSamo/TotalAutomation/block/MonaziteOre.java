@@ -1,7 +1,7 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.ctab.TACreativeTab;
-import net.minecraft.block.material.Material;
+import com.leSamo.TotalAutomation.util.TABlock;
+import com.leSamo.TotalAutomation.util.TACreativeTab;
 
 public class MonaziteOre extends TABlock {
 	public MonaziteOre() {
@@ -10,7 +10,7 @@ public class MonaziteOre extends TABlock {
 		this.setBlockTextureName("MonaziteOre");
 		this.setHardness(0.5F);
 		this.setCreativeTab(TACreativeTab.TATab);
-		this.setHarvestLevel(null, 2);
+		this.setHarvestLevel("pickaxe", 2);
 	}
 }
 
