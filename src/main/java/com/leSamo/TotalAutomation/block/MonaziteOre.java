@@ -8,9 +8,9 @@ public class MonaziteOre extends TABlock {
 		super();
 		this.setBlockName("monaziteore");
 		this.setBlockTextureName("MonaziteOre");
-		this.setHardness(0.5F);
+		this.setHardness(1F);
 		this.setCreativeTab(TACreativeTab.TATab);
-		this.setHarvestLevel("pickaxe", 2);
+		this.setHarvestLevel("pickaxe", 3);
 	}
 }
 

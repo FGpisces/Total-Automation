@@ -5,7 +5,7 @@ import com.leSamo.TotalAutomation.item.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ItemReg {
-	public static final TAItem CeriumItem = new CeriumItem();
+	public static final TAItem CeriumItem = (TAItem) new Cerium().setMaxStackSize(1);
 	public static final TAItem IronChipset = new IronChipset();
 	public static final TAItem GoldenChipset = new GoldenChipset();
 	public static final TAItem DiamondChipset = new DiamondChipset();

@@ -14,13 +14,4 @@ public class PureGlass extends TATransparentBlock{
 		this.setHardness(0.3F);
 		this.setCreativeTab(TACreativeTab.TATab);
 	}
-    @SideOnly(Side.CLIENT)
-    public int getRenderBlockPass()
-    {
-    	return 0;
-    }
-    public boolean renderAsNormalBlock()
-    {
-        return false;
-    }
 }

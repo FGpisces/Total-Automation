@@ -10,5 +10,6 @@ public class PureSand extends TAFallingBlock {
 		this.setBlockTextureName("PureSand");
 		this.setHardness(0.5F);
 		this.setCreativeTab(TACreativeTab.TATab);
+		this.setHarvestLevel("shovel", 1);
 	}
 }

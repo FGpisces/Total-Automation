@@ -45,16 +45,6 @@ public class TABlock extends Block {
 	public boolean renderAsNormalBlock() {
 	    return false;
 	}
-
-	@Override
-		public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int meta, float hitX, float hitY, float hitZ) {
-			if(world.isRemote) {
-				if (world.getTileEntity(x, y, z) != null)
-					player.openGui(TotalAutomation.instance, GUIs.OREMELTER.ordinal(), world, x, y, z);
-				return true;
-			}
-		return true;
-    }
 }
 
 
