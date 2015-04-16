@@ -1,11 +1,16 @@
 # Master language file for mod 'Total Automation' (0.1a) by leSamo and FGpisces
 
+itemGroup.TotalAutomation=Total Automation
+
 item.totalautomation:cerium.name=Cerium
+
 item.totalautomation:ironchipset.name=Iron Chipset
 item.totalautomation:goldenchipset.name=Golden Chipset
 item.totalautomation:diamondchipset.name=Diamond Chipset
 item.totalautomation:emeraldchipset.name=Emerald Chipset
 item.totalautomation:silicon.name=Silicon
+
+item.totalautomation:wrench.name=Wrench
 
 tile.totalautomation:puresand.name=Pure Sand
 tile.totalautomation:pureglass.name=Pure Glass
@@ -13,5 +18,4 @@ tile.totalautomation:monaziteore.name=Monazite Ore
 
 tile.totalautomation:oremelter.name=Ore Melter
 tile.totalautomation:sifter.name=Sifter
-
-itemGroup.TotalAutomation=Total Automation
+tile.totalautomation:ingotformer.name=Ingot Former
