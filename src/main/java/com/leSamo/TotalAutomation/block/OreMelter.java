@@ -1,14 +1,28 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.util.TABlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.inventory.ISidedInventory;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemTool;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
+import net.minecraft.tileentity.TileEntity;
+
+import com.leSamo.TotalAutomation.util.BlockReg;
+import com.leSamo.TotalAutomation.util.ItemReg;
 import com.leSamo.TotalAutomation.util.TACreativeTab;
 
-public class OreMelter extends TABlock {
-	public OreMelter() {
-		super();
-		this.setBlockName("oremelter");
-		this.setBlockTextureName("OreMelter");
-		this.setHardness(1F);
-		this.setCreativeTab(TACreativeTab.TATab);
-	}
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+public class OreMelter {
+
 }
