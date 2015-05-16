@@ -1,7 +1,7 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.util.TABlock;
-import com.leSamo.TotalAutomation.util.TACreativeTab;
+import com.leSamo.TotalAutomation.lib.TABlock;
+import com.leSamo.TotalAutomation.lib.TACreativeTab;
 
 public class Sifter extends TABlock {
 	public Sifter() {

@@ -1,7 +1,7 @@
-package com.leSamo.TotalAutomation.wgen;
+package com.leSamo.TotalAutomation.world;
 
 import com.leSamo.TotalAutomation.block.*;
-import com.leSamo.TotalAutomation.wgen.*;
+import com.leSamo.TotalAutomation.world.*;
 
 import java.util.Random;
 

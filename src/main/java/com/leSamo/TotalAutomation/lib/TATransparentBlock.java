@@ -1,6 +1,8 @@
-package com.leSamo.TotalAutomation.util;
+package com.leSamo.TotalAutomation.lib;
 
-import com.leSamo.TotalAutomation.util.BlockReg;
+import com.leSamo.TotalAutomation.ref.BlockReg;
+import com.leSamo.TotalAutomation.ref.Reference;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBreakable;
 import net.minecraft.block.material.Material;
@@ -25,7 +27,7 @@ public class TATransparentBlock extends BlockBreakable{
 	}
 	@Override
 	public String getUnlocalizedName () {
-		return String.format("tile.%s%s", Ref.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("tile.%s%s", Reference.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override

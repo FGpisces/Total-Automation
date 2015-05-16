@@ -1,8 +1,9 @@
-package com.leSamo.TotalAutomation.wgen;
+package com.leSamo.TotalAutomation.world;
 
 import java.util.Random;
 
-import com.leSamo.TotalAutomation.util.BlockReg;
+import com.leSamo.TotalAutomation.ref.BlockReg;
+
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
