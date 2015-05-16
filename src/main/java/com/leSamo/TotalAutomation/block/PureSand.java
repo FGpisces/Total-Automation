@@ -1,7 +1,7 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.util.TACreativeTab;
-import com.leSamo.TotalAutomation.util.TAFallingBlock;
+import com.leSamo.TotalAutomation.lib.TACreativeTab;
+import com.leSamo.TotalAutomation.lib.TAFallingBlock;
 
 public class PureSand extends TAFallingBlock {
 	public PureSand() {

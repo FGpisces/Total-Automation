@@ -1,6 +1,4 @@
-package com.leSamo.TotalAutomation.util;
-
-import com.leSamo.TotalAutomation.util.ItemReg;
+package com.leSamo.TotalAutomation.ref;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
@@ -10,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.*;
 import net.minecraftforge.oredict.OreDictionary;
 
-public class TARecipes {
+public class RecipesReg {
 	public static void init() {
 	}
 }

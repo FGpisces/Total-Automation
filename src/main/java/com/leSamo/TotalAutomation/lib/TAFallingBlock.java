@@ -1,28 +1,27 @@
-package com.leSamo.TotalAutomation.util;
+package com.leSamo.TotalAutomation.lib;
 
 import com.leSamo.TotalAutomation.TotalAutomation;
-import com.leSamo.TotalAutomation.util.Ref;
+import com.leSamo.TotalAutomation.ref.Reference;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockFalling;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.world.World;
 
-public class TABlock extends Block {
+public class TAFallingBlock extends BlockFalling {
 
-	public TABlock(Material material) {
+	public TAFallingBlock(Material material) {
 		super(material);
 	}
 	
-	public TABlock() {
-		this(Material.glass);
+	public TAFallingBlock() {
+		this(Material.sand);
 	}
-	
 	@Override
 	public String getUnlocalizedName () {
-		return String.format("tile.%s%s", Ref.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("tile.%s%s", Reference.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override
@@ -33,14 +32,6 @@ public class TABlock extends Block {
 	
 	protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
 		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
-	}
-	@SideOnly(Side.CLIENT)
-	public int getRenderBlockPass()	{
-	    return 0;
-	}
-
-	public boolean renderAsNormalBlock() {
-	    return false;
 	}
 }
 

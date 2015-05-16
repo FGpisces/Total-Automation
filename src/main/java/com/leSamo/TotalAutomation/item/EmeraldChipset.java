@@ -1,7 +1,7 @@
 package com.leSamo.TotalAutomation.item;
 
-import com.leSamo.TotalAutomation.util.TACreativeTab;
-import com.leSamo.TotalAutomation.util.TAItem;
+import com.leSamo.TotalAutomation.lib.TACreativeTab;
+import com.leSamo.TotalAutomation.lib.TAItem;
 
 public class EmeraldChipset extends TAItem {
 	public EmeraldChipset() {

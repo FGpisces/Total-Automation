@@ -1,9 +1,7 @@
 package com.leSamo.TotalAutomation.block;
 
-import com.leSamo.TotalAutomation.util.TACreativeTab;
-import com.leSamo.TotalAutomation.util.TATransparentBlock;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import com.leSamo.TotalAutomation.lib.TACreativeTab;
+import com.leSamo.TotalAutomation.lib.TATransparentBlock;
 
 public class PureGlass extends TATransparentBlock{
 	public PureGlass() {

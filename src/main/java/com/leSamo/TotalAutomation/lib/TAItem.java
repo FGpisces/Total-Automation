@@ -1,6 +1,6 @@
-package com.leSamo.TotalAutomation.util;
+package com.leSamo.TotalAutomation.lib;
 
-import com.leSamo.TotalAutomation.util.Ref;
+import com.leSamo.TotalAutomation.ref.Reference;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -16,12 +16,12 @@ public class TAItem extends Item {
 	
 	@Override
 	public String getUnlocalizedName () {
-		return String.format("item.%s%s", Ref.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", Reference.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override
 	public String getUnlocalizedName(ItemStack itemstack) {
-		return String.format("item.%s%s", Ref.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", Reference.MID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override
