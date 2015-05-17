@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "pre0.1a"
+version = "0.2a"
 group= "com.leSamo.TotalAutomation"
 archivesBaseName = "TotalAutomation"
 
 minecraft {
-    version = "1.7.10-10.13.2.1291"
+    version = "1.7.10-10.13.2.1334"
     runDir = "eclipse"
 }
 
