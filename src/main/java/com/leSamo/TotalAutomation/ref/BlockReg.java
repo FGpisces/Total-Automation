@@ -1,12 +1,5 @@
 package com.leSamo.TotalAutomation.ref;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockFalling;
-import net.minecraft.block.BlockGlass;
-import net.minecraft.block.material.Material;
-import net.minecraft.item.Item;
-import net.minecraft.tileentity.TileEntity;
-
 import com.leSamo.TotalAutomation.block.*;
 import com.leSamo.TotalAutomation.lib.TABlock;
 import com.leSamo.TotalAutomation.lib.TAFallingBlock;

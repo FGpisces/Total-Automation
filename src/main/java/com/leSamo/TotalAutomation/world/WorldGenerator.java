@@ -5,19 +5,15 @@ import com.leSamo.TotalAutomation.world.*;
 
 import java.util.Random;
 
-import net.minecraft.block.Block;
-import net.minecraft.world.World;
-import net.minecraft.world.chunk.IChunkProvider;
-import net.minecraft.world.gen.feature.WorldGenMinable;
 import cpw.mods.fml.common.IWorldGenerator;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class WorldGenerator {
 	public static void mainRegistry(){
-		initWorldGen();
+		init();
 	}
 	
-	public static void initWorldGen(){
+	public static void init(){
 		registerWorldGen(new WorldGenMonazite(), 1);
 	}
 	
