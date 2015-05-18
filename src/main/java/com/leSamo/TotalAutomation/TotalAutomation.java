@@ -27,7 +27,7 @@ public class TotalAutomation {
 	public void preInit(FMLPreInitializationEvent event){	
 		ItemReg.init();
 		BlockReg.init();
-		WorldGenerator.initWorldGen();
+		WorldGenerator.init();
 	}
 	
 	@Mod.EventHandler
