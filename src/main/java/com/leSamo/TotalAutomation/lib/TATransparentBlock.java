@@ -3,13 +3,9 @@ package com.leSamo.TotalAutomation.lib;
 import com.leSamo.TotalAutomation.ref.BlockReg;
 import com.leSamo.TotalAutomation.ref.Reference;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockBreakable;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.init.Blocks;
-import net.minecraft.util.Facing;
-import net.minecraft.world.IBlockAccess;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 

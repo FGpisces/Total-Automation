@@ -16,7 +16,7 @@ public class TACreativeTab {
 		
 		public boolean hasSearchBar()
 	    {
-	        return true;
+	        return false;
 	    }
 	};
 }
