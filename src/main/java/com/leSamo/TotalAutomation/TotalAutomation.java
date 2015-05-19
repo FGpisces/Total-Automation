@@ -1,6 +1,6 @@
 package com.leSamo.TotalAutomation;
 
-import com.leSamo.TotalAutomation.proxy.IProxy;
+import com.leSamo.TotalAutomation.proxy.CommonProxy;
 import com.leSamo.TotalAutomation.ref.BlockReg;
 import com.leSamo.TotalAutomation.ref.ItemReg;
 import com.leSamo.TotalAutomation.ref.RecipesReg;
@@ -21,8 +21,8 @@ public class TotalAutomation {
 	public static TotalAutomation instance;
 	
 	@SidedProxy(clientSide=Reference.CPROXY, serverSide=Reference.SPROXY)
-	public static IProxy proxy;
-	
+	public static CommonProxy proxy;
+
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event){	
 		ItemReg.init();
@@ -33,6 +33,7 @@ public class TotalAutomation {
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event){
 		RecipesReg.init();
+		proxy.registerTileEntities();
 	}
 	
 	@Mod.EventHandler

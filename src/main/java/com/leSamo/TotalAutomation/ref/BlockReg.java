@@ -1,5 +1,7 @@
 package com.leSamo.TotalAutomation.ref;
 
+import net.minecraft.block.Block;
+
 import com.leSamo.TotalAutomation.block.*;
 import com.leSamo.TotalAutomation.lib.TABlock;
 import com.leSamo.TotalAutomation.lib.TAFallingBlock;
@@ -8,6 +10,7 @@ import com.leSamo.TotalAutomation.lib.TATransparentBlock;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class BlockReg {
+	public static Block OreMelter = new OreMelter();
 	public static final TAFallingBlock PureSand = new PureSand();
 	public static final TATransparentBlock PureGlass = new PureGlass();
 	public static final TABlock Sifter = new Sifter();
@@ -18,5 +21,6 @@ public class BlockReg {
 		GameRegistry.registerBlock(PureGlass, "PureGlass");
 		GameRegistry.registerBlock(Sifter, "Sifter");
 		GameRegistry.registerBlock(MonaziteOre, "MonaziteOre");
+		GameRegistry.registerBlock(OreMelter, "OreMelter");
 	}
 }

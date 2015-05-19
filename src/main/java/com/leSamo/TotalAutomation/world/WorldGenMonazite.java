@@ -23,7 +23,7 @@ public class WorldGenMonazite implements IWorldGenerator {
 			int randPosY = rand.nextInt(64);
 			int randPosZ = chunkZ + rand.nextInt(16);
 			
-			(new WorldGenMinable(BlockReg.MonaziteOre, 5)).generate(world, rand, randPosX, randPosY, randPosZ);
+			(new WorldGenMinable(BlockReg.MonaziteOre, 3)).generate(world, rand, randPosX, randPosY, randPosZ);
 			
 		}
 	}
