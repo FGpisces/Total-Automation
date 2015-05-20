@@ -1,6 +1,7 @@
 package com.leSamo.TotalAutomation.lib;
 
 import com.leSamo.TotalAutomation.TotalAutomation;
+import com.leSamo.TotalAutomation.tile.TileIngotFormer;
 import com.leSamo.TotalAutomation.tile.TileOreMelter;
 import com.leSamo.TotalAutomation.ref.Reference;
 
@@ -43,10 +44,6 @@ public class TABlock extends Block {
 
 	public boolean renderAsNormalBlock() {
 	    return false;
-	}
-
-	public TileOreMelter TileEntity(World world, int meta) {
-		return null;
 	}
 }
 

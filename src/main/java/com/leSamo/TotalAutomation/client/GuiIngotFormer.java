@@ -4,14 +4,14 @@ import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 
-public class GuiOreMelter extends GuiScreen {
+public class GuiIngotFormer extends GuiScreen {
 	
     private int x, y, z;
     private EntityPlayer player;
     private World world;
     private int xSize, ySize; 
     
-    public GuiOreMelter(EntityPlayer player, World world, int x, int y, int z) {
+    public GuiIngotFormer(EntityPlayer player, World world, int x, int y, int z) {
     	 this.x = x;
          this.y = y;
          this.z = z;
