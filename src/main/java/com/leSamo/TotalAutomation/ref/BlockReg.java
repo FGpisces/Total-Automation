@@ -11,6 +11,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class BlockReg {
 	public static Block OreMelter = new OreMelter();
+	public static Block IngotFormer = new IngotFormer();
 	public static final TAFallingBlock PureSand = new PureSand();
 	public static final TATransparentBlock PureGlass = new PureGlass();
 	public static final TABlock Sifter = new Sifter();
@@ -22,5 +23,6 @@ public class BlockReg {
 		GameRegistry.registerBlock(Sifter, "Sifter");
 		GameRegistry.registerBlock(MonaziteOre, "MonaziteOre");
 		GameRegistry.registerBlock(OreMelter, "OreMelter");
+		GameRegistry.registerBlock(IngotFormer, "IngotFormer");
 	}
 }

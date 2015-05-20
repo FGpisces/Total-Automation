@@ -1,5 +1,7 @@
 package com.leSamo.TotalAutomation.client;
 
 public enum GUIs {
-	ORE_MELTER
+	ORE_MELTER,
+	INGOT_FORMER,	
+	SIFTER
 }

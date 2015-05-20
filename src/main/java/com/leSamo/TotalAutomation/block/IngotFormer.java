@@ -5,6 +5,7 @@ import com.leSamo.TotalAutomation.client.GUIs;
 import com.leSamo.TotalAutomation.lib.TABlock;
 import com.leSamo.TotalAutomation.lib.TACreativeTab;
 import com.leSamo.TotalAutomation.ref.*;
+import com.leSamo.TotalAutomation.tile.TileIngotFormer;
 import com.leSamo.TotalAutomation.tile.TileOreMelter;
 
 import net.minecraft.block.Block;
@@ -15,17 +16,17 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
-public class OreMelter extends TABlock implements ITileEntityProvider {
-	public OreMelter() {
+public class IngotFormer extends TABlock implements ITileEntityProvider {
+	public IngotFormer() {
 		super();
-		this.setBlockName("oremelter");
-		this.setBlockTextureName("OreMelter");
+		this.setBlockName("ingotformer");
+		this.setBlockTextureName("IngotFormer");
 		this.setHardness(1F);
 		this.setCreativeTab(TACreativeTab.TATab);
 	}
 	
-	public TileOreMelter TileEntity(World world, int meta){
-		return new TileOreMelter();
+	public TileIngotFormer TileEntity(World world, int meta){
+		return new TileIngotFormer();
 	}
 	
 	@Override
@@ -46,7 +47,7 @@ public class OreMelter extends TABlock implements ITileEntityProvider {
 	@Override
 	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int par6, float par7, float par8, float par9){
 		if (!player.isSneaking() && world.isRemote){
-			player.openGui(TotalAutomation.instance, GUIs.ORE_MELTER.ordinal(), world, x, y, z);
+			player.openGui(TotalAutomation.instance, GUIs.INGOT_FORMER.ordinal(), world, x, y, z);
 			return true;
 		}
 		else return true;
