@@ -1,4 +1,4 @@
-package com.leSamo.TotalAutomation.client;
+package com.leSamo.TotalAutomation.gui;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
@@ -14,6 +14,7 @@ public class GuiHandler implements IGuiHandler {
 	    public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
 	        if(ID == GUIs.ORE_MELTER.ordinal()) return new GuiOreMelter(player, world, x, y, z);
 	        if(ID == GUIs.INGOT_FORMER.ordinal()) return new GuiIngotFormer(player, world, x, y, z);
+	        if(ID == GUIs.SIFTER.ordinal()) return new GuiSifter(player, world, x, y, z);
 	        else return null;
 	    }
 }
