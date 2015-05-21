@@ -1,3 +1,3 @@
-Total Automation (0.1a)
+Total Automation (0.2a)
 ================
-'Total Automation' Minecraft mod by leSamo & FGpisces
+'Total Automation' Minecraft mod by leSamo
