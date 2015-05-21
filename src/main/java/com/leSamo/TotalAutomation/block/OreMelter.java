@@ -1,7 +1,7 @@
 package com.leSamo.TotalAutomation.block;
 
 import com.leSamo.TotalAutomation.TotalAutomation;
-import com.leSamo.TotalAutomation.client.GUIs;
+import com.leSamo.TotalAutomation.gui.GUIs;
 import com.leSamo.TotalAutomation.lib.TABlock;
 import com.leSamo.TotalAutomation.lib.TACreativeTab;
 import com.leSamo.TotalAutomation.ref.*;

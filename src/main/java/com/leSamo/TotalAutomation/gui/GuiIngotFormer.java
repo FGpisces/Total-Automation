@@ -1,4 +1,4 @@
-package com.leSamo.TotalAutomation.client;
+package com.leSamo.TotalAutomation.gui;
 
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.entity.player.EntityPlayer;

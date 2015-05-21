@@ -1,6 +1,6 @@
 package com.leSamo.TotalAutomation;
 
-import com.leSamo.TotalAutomation.client.GuiHandler;
+import com.leSamo.TotalAutomation.gui.GuiHandler;
 import com.leSamo.TotalAutomation.proxy.CommonProxy;
 import com.leSamo.TotalAutomation.ref.BlockReg;
 import com.leSamo.TotalAutomation.ref.ItemReg;
